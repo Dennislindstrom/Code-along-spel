@@ -1,0 +1,15 @@
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\obj\Debug\net6.0\Code along, spel.csproj.AssemblyReference.cache
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\obj\Debug\net6.0\Code along, spel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\obj\Debug\net6.0\Code along, spel.AssemblyInfoInputs.cache
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\obj\Debug\net6.0\Code along, spel.AssemblyInfo.cs
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\obj\Debug\net6.0\Code along, spel.csproj.CoreCompileInputs.cache
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\bin\Debug\net6.0\Code along, spel.exe
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\bin\Debug\net6.0\Code along, spel.deps.json
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\bin\Debug\net6.0\Code along, spel.runtimeconfig.json
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\bin\Debug\net6.0\Code along, spel.dll
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\bin\Debug\net6.0\Code along, spel.pdb
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\obj\Debug\net6.0\Code along, spel.dll
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\obj\Debug\net6.0\refint\Code along, spel.dll
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\obj\Debug\net6.0\Code along, spel.pdb
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\obj\Debug\net6.0\Code along, spel.genruntimeconfig.cache
+C:\Users\Denni\Desktop\Visual studio\Code along, spel\Code along, spel\obj\Debug\net6.0\ref\Code along, spel.dll
