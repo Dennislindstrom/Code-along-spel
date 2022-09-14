@@ -189,7 +189,9 @@ int CalculateDamage()
     int damage = new Random().Next(minDamage, maxDamage + 1);
     return damage;
 }
-
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________________________________________________________
 */
 
 
@@ -214,20 +216,16 @@ int monsterHealth;
 bool isPlayerTurn;
 int minDamage = 1;
 int maxDamage = 100;
+bool isPlaying = true;
 
 //METHOD CALLS
-WelcomePlayer();
-DecidePlayerAndMonsterHealth();
-DecideTurn();
-Attack();
-ChangeTurn();
+InitializeGame();
+RunGame();
 
-
-
-
-
+// GAME LOOP
 
 //METHODS
+
 //Welcome player to the game
 void WelcomePlayer()
 {
@@ -301,7 +299,7 @@ void ChangeTurn()
     {
 
     }
-        isPlayerTurn= true;
+    isPlayerTurn = true;
 }
 
 void Printhealth()
@@ -310,3 +308,56 @@ void Printhealth()
     Console.WriteLine($"Player health: {playerHealth}");
     Console.WriteLine($"Player health: {monsterHealth}");
 }
+
+void InitializeGame()
+{
+    Console.Clear();
+    isPlayerTurn = true;
+    WelcomePlayer();
+    DecidePlayerAndMonsterHealth();
+    DecideTurn();
+}
+
+void RunGame()
+{
+    while (isPlaying)
+    {
+        Attack();
+        Printhealth();
+
+        if (playerHealth <= 0 || monsterHealth <= 0)
+        {
+            isPlaying = false;
+        }
+        else
+        {
+            ChangeTurn();
+
+            Console.WriteLine("Press enter or continue!");
+            Console.ReadLine();
+        }
+    }
+    AskForRematch();
+}
+
+void AskForRematch()
+{
+        Console.WriteLine();
+        Console.WriteLine("Do you want a rematch? y/n");
+
+        string respone = Console.ReadLine();
+
+        if (respone == "y")
+        {
+            InitializeGame();
+            RunGame();
+        }
+        else if (respone == "n") ;
+        {
+            Console.WriteLine("Thanks for playing!");
+            Console.WriteLine("Press enter to exit");
+            Console.ReadLine();
+        }
+
+    }
+
